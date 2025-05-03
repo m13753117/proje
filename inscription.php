@@ -45,7 +45,7 @@ if(!empty($_POST['username']) AND !empty($_POST['password']) AND !empty($_POST['
 
 <div class="jumbotron">
   		<div class="col-lg-8">
-  		    <span class="biblio-logo">Biblioweb<span class="dot">.JBF</span></span>
+  		    <span class="biblio-logo">Biblioweb<span class="dot">.NGR</span></span>
   		</div>
   		<div class="col-lg-4">
   		    <div id="logoright">Bibliotheque du web</div>

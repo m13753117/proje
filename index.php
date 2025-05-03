@@ -45,7 +45,7 @@ if(!empty($_POST['email']) AND !empty($_POST['pwd']))
 
     $_SESSION['connecter']=true;
     foreach ($client as $client_connecter) {
-    //stocke tt les variable dans session pour travaille dans tous les page
+    //stocke toute les variable dans session pour travaille dans tous les page
     $_SESSION['id_client']=$client_connecter['id_client'];
     $_SESSION['nom_client']=$client_connecter['nom_client'];
     $_SESSION['Email']=$client_connecter['Email'];
@@ -80,7 +80,7 @@ if(!empty($_POST['email']) AND !empty($_POST['pwd']))
 <body>
 <div class="jumbotron">
       <div class="col-lg-8">
-          <span class="biblio-logo">Biblioweb<span class="dot">.JBF</span></span>
+          <span class="biblio-logo">Biblioweb<span class="dot">.NGR</span></span>
       </div>
       <div class="col-lg-4">
           <div id="logoright">Bibliotheque du web</div>
